@@ -6,7 +6,6 @@ from langchain_openai import ChatOpenAI
 # Load environment variables from .env file
 load_dotenv()
 api_keys = os.getenv("API_KEYS")
-print(f'{api_keys=}')
 if api_keys is None:
     raise ValueError("API_KEYS environment variable not set")
 
