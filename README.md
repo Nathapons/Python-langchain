@@ -12,7 +12,7 @@ This project explores [LangChain](https://github.com/langchain-ai/langchain) in 
 First get your [YOUR_API_KEY](https://platform.openai.com/api-keys) from 
 
 ```bash
-echo API_KEYS=<YOUR_API_KEY> >> .env
+echo OPENAI_API_KEY=YOUR_API_KEY >> .env
 ```
 
 ## Installation
