@@ -13,8 +13,7 @@ This project explores [LangChain](https://github.com/langchain-ai/langchain) in 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
-pip install langchain
-# Install other dependencies as needed
+pip install -r requirements.txt
 ```
 
 ## Usage
@@ -27,7 +26,6 @@ Add your scripts and notebooks in this directory. See [LangChain documentation](
 python-langchain/
 ├── README.md
 ├── main.py
-└── ...
 ```
 
 ## Resources
