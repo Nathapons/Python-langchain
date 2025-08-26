@@ -6,7 +6,14 @@ This project explores [LangChain](https://github.com/langchain-ai/langchain) in 
 
 - Python 3.13.0+
 - [LangChain](https://pypi.org/project/langchain/)
-- Other dependencies as needed (see below)
+
+## Create env file
+
+First get your [YOUR_API_KEY](https://platform.openai.com/api-keys) from 
+
+```bash
+echo API_KEYS=<YOUR_API_KEY> >> .env
+```
 
 ## Installation
 
@@ -15,24 +22,3 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
-
-## Usage
-
-Add your scripts and notebooks in this directory. See [LangChain documentation](https://python.langchain.com/docs/) for examples.
-
-## Project Structure
-
-```
-python-langchain/
-├── README.md
-├── main.py
-```
-
-## Resources
-
-- [LangChain Docs](https://python.langchain.com/docs/)
-- [LangChain GitHub](https://github.com/langchain-ai/langchain)
-
-## License
-
-MIT
