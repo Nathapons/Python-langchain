@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.envrc
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# macOS files
+.DS_Store
+
+# Test and coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+*.log
+
+# pipenv
+Pipfile.lock
+
+# mypy
+.mypy_cache/
+.dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# LangChain cache
+lc_cache/
+
+# Model files
+*.ckpt
+*.pt
+*.pth
+
+# Data files
+data/
+*.csv
+*.json
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+MANIFEST
+
+# Local secrets
+secrets.*
